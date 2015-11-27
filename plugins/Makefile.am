@@ -17,3 +17,7 @@ endif
 if RECORDER_PLUGIN
 SUBDIRS               += mrcp-recorder
 endif
+
+if WATSONSYNTH_PLUGIN
+SUBDIRS               += watson-synth
+endif
